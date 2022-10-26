@@ -1,5 +1,5 @@
 radio.setGroup(1)
-radio.setTransmitPower(7)
+radio.setTransmitPower(0)
 basic.forever(function () {
     basic.showString("A")
     radio.sendString("A")
